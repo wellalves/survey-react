@@ -1,0 +1,147 @@
+[{
+        "QuestionId": 1,
+        "QuestionText": "Age",
+        "Options": [],
+        "QuestionDataType": "number",
+        "QuestionFieldType": "input"
+    },
+    {
+        "QuestionId": 2,
+        "QuestionText": "Gender ?",
+        "Options": [{
+                "OptionId": 1,
+                "QuestionId": 2,
+                "OptionText": "M",
+                "OptionValue": "m"
+            },
+            {
+                "OptionId": 2,
+                "QuestionId": 2,
+                "OptionText": "F",
+                "OptionValue": "f"
+            },
+            {
+                "OptionId": 3,
+                "QuestionId": 2,
+                "OptionText": "Other",
+                "OptionValue": "other"
+            }
+        ],
+        "QuestionDataType": "text",
+        "QuestionFieldType": "dropdown"
+    },
+    {
+        "QuestionId": 3,
+        "QuestionText": "Do you own a car driving license?",
+        "Options": [{
+                "OptionId": 4,
+                "QuestionId": 3,
+                "OptionText": "Yes",
+                "OptionValue": "yes"
+            },
+            {
+                "OptionId": 5,
+                "QuestionId": 3,
+                "OptionText": "No, I prefer using other transport",
+                "OptionValue": "no"
+            }
+        ],
+        "QuestionDataType": "text",
+        "QuestionFieldType": "radio"
+    },
+    {
+        "QuestionId": 4,
+        "QuestionText": "Is this your first car ?",
+        "Options": [{
+                "OptionId": 5,
+                "QuestionId": 4,
+                "OptionText": "Yes",
+                "OptionValue": "yes"
+            },
+            {
+                "OptionId": 6,
+                "QuestionId": 4,
+                "OptionText": "No",
+                "OptionValue": "no"
+            }
+        ],
+        "QuestionDataType": "text",
+        "QuestionFieldType": "radio"
+    },
+    {
+        "QuestionId": 5,
+        "QuestionText": "Which drivetrain do you prefer?",
+        "Options": [{
+                "OptionId": 7,
+                "QuestionId": 5,
+                "OptionText": "FWD",
+                "OptionValue": "fwd"
+            },
+            {
+                "OptionId": 8,
+                "QuestionId": 5,
+                "OptionText": "RWD",
+                "OptionValue": "rwd"
+            },
+            {
+                "OptionId": 8,
+                "QuestionId": 5,
+                "OptionText": "I don’t know",
+                "OptionValue": "idk"
+            }
+        ],
+        "QuestionDataType": "text",
+        "QuestionFieldType": "radio"
+    },
+    {
+        "QuestionId": 6,
+        "QuestionText": "Are you worried about fuel emissions ?",
+        "Options": [{
+                "OptionId": 5,
+                "QuestionId": 6,
+                "OptionText": "Yes",
+                "OptionValue": "yes"
+            },
+            {
+                "OptionId": 6,
+                "QuestionId": 6,
+                "OptionText": "No",
+                "OptionValue": "no"
+            }
+        ],
+        "QuestionDataType": "text",
+        "QuestionFieldType": "radio"
+    },
+    {
+        "QuestionId": 7,
+        "QuestionText": "How many cars do you have in your family?",
+        "Options": [],
+        "QuestionDataType": "number",
+        "QuestionFieldType": "input"
+    },
+    {
+        "QuestionId": 8,
+        "QuestionText": "Which car make and model do you drive?",
+        "Options": [{
+                "OptionId": 7,
+                "QuestionId": 8,
+                "OptionText": "BMW",
+                "OptionValue": "bmw"
+            },
+            {
+                "OptionId": 8,
+                "QuestionId": 8,
+                "OptionText": "Mazda",
+                "OptionValue": "mazda"
+            },
+            {
+                "OptionId": 9,
+                "QuestionId": 8,
+                "OptionText": "Toyota",
+                "OptionValue": "toyota"
+            }
+        ],
+        "QuestionDataType": "text",
+        "QuestionFieldType": "special"
+    }
+]
